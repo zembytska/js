@@ -24,4 +24,3 @@ fetch(url)
             document.body.appendChild(div);
         }
     });
-

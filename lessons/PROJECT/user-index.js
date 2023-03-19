@@ -30,7 +30,6 @@ fetch ('https://jsonplaceholder.typicode.com/users')
 
     });
 
-
   let url3 = new URL(location.href);
   console.log(url3);
   let id = url3.searchParams.get('id');

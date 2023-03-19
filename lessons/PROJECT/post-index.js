@@ -8,7 +8,6 @@ console.log(url);
 let data = url.searchParams.get('data');
 console.log(data);
 
-
 fetch(`https://jsonplaceholder.typicode.com/posts/${data}/comments`)
 
     .then(resp => resp.json())
